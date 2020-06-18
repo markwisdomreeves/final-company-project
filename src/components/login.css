@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-login-form-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 2rem !important;
+}
+.custom-form-card-style h2 {
+    font-size: 18px !important;
+}
+.custom-img-style {
+    padding: 20px;
+}
+.custom-img-style img {
+    width: 300px;
+    text-align: center;
+}
+.custom-login-info-container {
+    padding: 10px;
+}

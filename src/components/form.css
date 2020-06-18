@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-background-image {
+    padding: 30px;    
+    background: url("../assets/background-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.custom-form-btn-style {
+    background: #0084bf !important;
+    color: #f1f1f1;
+}
+.custom-form-btn-style:hover {
+    background: #006097 !important;
+}
+.border-top-bottom-style {
+    border-top: 6px groove #0084bf;
+    border-bottom: 6px groove #0084bf;
+}
+.custom-intro-style {
+    margin-top: 2rem!important;
+    margin-bottom: 30px;
+}
+.custom-intro-style h1 {
+    font-size: 2rem!important;
+    color: #f1f1f1;
+    padding: 0 !important;
+}
+.custom-intro-style p {
+    font-size: 1.3rem!important;
+    color: #f1f1f1;
+    padding: 0 !important;
+}
+.custom-form-card-style h2 {
+    font-size: 1.3rem!important;
+    padding: 10px;
+}
+.custom-form-card-style label {
+    font-size: 14px!important;
+    color: #111;
+}
+.custom-form-card-style span {
+    font-size: 12px!important;
+    color: #111;
+}
+.custom-form-card-style a {
+    font-size: 12px!important;
+    color: #111;
+    text-decoration: none;
+    color: #0084bf;
+}
