@@ -22,14 +22,14 @@ export default class Login extends Component {
                                     <div className="form-group">
                                         <input type="password" name="password" className="form-control" placeholder="Inserisci Password" />
                                     </div>
-                                    <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                        <label class="form-check-label" for="exampleCheck1">
+                                    <div className="form-group form-check">
+                                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                        <label className="form-check-label" htmlFor="exampleCheck1">
                                             Automatico
                                         </label>
                                     </div>
                                     <br />
-                                    <button class="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">ACCEDI</button>
+                                    <button className="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">ACCEDI</button>
                                     <div className="form-group custom-login-info-container">
                                         <div className="form-group">
                                             <Link to="/forget-password">Hai dimenticato I dati di accesso?</Link>

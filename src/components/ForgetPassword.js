@@ -19,7 +19,7 @@ export default class ForgetPassword extends Component {
                                     <input type="email" name="email" className="form-control" placeholder="Inserisci Email" />
                                 </div>
                                 <br />
-                                <button class="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">Invia</button>
+                                <button className="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">Invia</button>
                             </form>
                             </div>
                         </div>

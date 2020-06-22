@@ -8,6 +8,7 @@ import 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../node_modules/font-awesome/css/font-awesome.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ReactDOM.render(

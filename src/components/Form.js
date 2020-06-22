@@ -40,16 +40,16 @@ class Form extends Component {
                                     <div className="form-group">
                                         <input type="password" name="comfermaPassword" className="form-control" placeholder="Inserisci Conferma Password" />
                                     </div>
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                                        <label class="form-check-label" for="exampleCheck1">
+                                    <div className="form-group form-check">
+                                        <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                                        <label className="form-check-label" htmlFor="exampleCheck1">
                                         Il sottoscritto autorizza l'invio del form, come per legge. 
                                         </label>
                                     </div>
                                     <div className="form-group custom-link-info">
                                       <span>Procedendo accetti:{" "}</span><p><Link to="terms-of-use">Condizioni di utilizzo</Link>, <Link to="privacy-e-cookie">Privacy e Cookie</Link></p>
                                     </div>
-                                    <button class="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">Iscriviti</button>
+                                    <button className="btn btn-sm btn-block btn-primary custom-form-btn-style" type="button">Iscriviti</button>
                                 </form>
                             </div>
                         </div>

@@ -58,3 +58,27 @@ body {
     text-decoration: none;
     color: #0084bf;
 }
+@media screen and (max-width: 500px) {
+    .custom-intro-style h1 {
+        font-size: 1.5rem!important;
+    }
+    .custom-intro-style p {
+        font-size: 1rem!important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .custom-intro-style h1 {
+        font-size: 1.4rem!important;
+    }
+    .custom-intro-style p {
+        font-size: 0.7rem!important;
+    }
+}
+@media screen and (max-width: 320px) {
+    .custom-intro-style h1 {
+        font-size: 1rem!important;
+    }
+    .custom-intro-style p {
+        font-size: 0.6rem!important;
+    }
+}

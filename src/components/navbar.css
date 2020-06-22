@@ -8,44 +8,168 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-#parent-navbar-container {
-    background: #F0F0F0 !important;
-}
-#parent-navbar-container .custom-navbar-btn-style {
-    background: #0084bf !important;
-    color: #f1f1f1;
-}
-#parent-navbar-container .custom-navbar-btn-style:hover {
-    background: #006097 !important;
-}
-.customer-navbar-container li {
-    margin-left: 2rem;
-}
-.customer-navbar-container .custom-navbar-style-container {
-    display: flex !important;
-    justify-content: space-around !important;
-    align-items: center !important;
-    flex-direction: row !important;
-}
-.custom-form-style {
-    margin-right: 30px;
-}
-.custom-label-style label {
-    padding: 10px;
-    margin: 10px;
-    font-size: 12px;
-}
-.custom-link-container {
-    margin-left: 20px;
-}
 .logo-size {
-    width: 70px;
+    width: 60px;
     border-radius: 80px;
     margin-right: 10px;
 }
-#navbar-container ul li a {
-    text-decoration: none;
-    color: #111;
-    padding: 5px;
+.main-parent-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+.main-parent-container {
+    margin-right: 20px!important;
+}
+.main-parent-container form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.main-parent-container input {
+    width: 200px;
+    margin-left: 5px;
+}
+.main-parent-container #navbar-login-btn {
+    padding: 2px;
+    margin-left: 5px;
+}
+.custom-login-link {
+    padding: 0!important;
+}
+.custom-login-link-container {
+    margin-right: 5px;
+}
+.check-box-container {
+    display: flex;
+    width: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;   
+}
+.check-box-container label {
+    font-size: 13px;
+}
+.check-box-container input {
     margin: 5px;
 }
+
+@media screen and (max-width: 769px) {
+    .custom-login-link-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .logo-size {
+        width: 50px;
+        border-radius: 80px;
+    }
+    .main-parent-container #inner-navbar-login-box {
+        padding: 0!important;
+    }
+    .main-parent-container input {
+        width: 120px;
+        margin-left: 5px;
+    }
+    .main-parent-container #navbar-login-btn {
+        padding: 2px!important;
+        margin-left: 2px!important;
+    }
+    .custom-login-link {
+        padding: 0!important;
+    }
+    .check-box-container input {
+        margin: 0px;
+    } 
+}
+@media screen and (max-width: 550px) {
+    .logo-size {
+        width: 40px;
+        border-radius: 80px;
+    }
+    .main-parent-container #inner-navbar-login-box {
+        padding: 0!important;
+    }
+    .main-parent-container #inner-navbar-login-box input {
+        width: 100px;
+        margin-left: 5px;
+        font-size: 12px!important;
+    }
+    .main-parent-container #inner-navbar-login-box button {
+        font-size: 12px!important;
+    }
+    .main-parent-container #navbar-login-btn {
+        padding: 2px!important;
+        margin-left: 2px!important;
+    }
+    .custom-login-link {
+        padding: 0!important;
+    }
+    .check-box-container input {
+        margin: 0px;
+    } 
+}
+@media screen and (max-width: 360px) {
+    .logo-size {
+        width: 40px;
+        border-radius: 80px;
+    }
+    .main-parent-container #inner-navbar-login-box {
+        padding: 0!important;
+    }
+    .main-parent-container #inner-navbar-login-box input {
+        width: 90px;
+        margin-left: 3px;
+    }
+    .main-parent-container #inner-navbar-login-box button {
+        font-size: 12px!important;
+    }
+    .main-parent-container #inner-navbar-login-box input {
+        font-size: 12px!important;
+    }
+    .main-parent-container #navbar-login-btn {
+        padding: 2px!important;
+        margin-left: 2px!important;
+    }
+    .custom-login-link {
+        padding: 0!important;
+    }
+    .check-box-container input {
+        margin: 0px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .logo-size {
+        width: 40px;
+        border-radius: 80px;
+    }
+    .main-parent-container #inner-navbar-login-box {
+        padding: 0!important;
+    }
+    .main-parent-container #inner-navbar-login-box input {
+        width: 80px;
+        margin-left: 3px;
+    }
+    .main-parent-container #inner-navbar-login-box button {
+        font-size: 10px!important;
+    }
+    .main-parent-container #inner-navbar-login-box input {
+        font-size: 10px!important;
+    }
+    .main-parent-container #navbar-login-btn {
+        padding: 2px!important;
+        margin-left: 2px!important;
+    }
+    .custom-login-link {
+        padding: 0!important;
+    }
+    .check-box-container input {
+        margin: 0px;
+    } 
+}
+
+
