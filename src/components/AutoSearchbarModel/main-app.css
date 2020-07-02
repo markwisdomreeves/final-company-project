@@ -1,0 +1,91 @@
+.dropdown-search {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+.auto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+  }
+.wrap input {
+    padding: 10px;
+    height: 40px;
+    width: 700px;
+    /* margin: 10px; */
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+.main-div-position {
+    position: relative;
+  }
+.autoContainer {
+    position: absolute;
+    border-width: 0px 1px 1px 1px;
+    width: 700px;
+    margin: 0 auto;
+  }
+.flex-container {
+    display: flex;
+  }
+.flex-column {
+    flex-direction: column;
+  }
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 563px;
+    /* width: 400px; */
+    padding: 5px;
+  }
+.option,
+.link-lists:hover {
+    text-decoration: none;
+  }
+.option,
+  li {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    list-style-type: none;
+  }
+.link-lists {
+    text-decoration: none;
+    list-style-type: none;
+    /* background-color: red; */
+  }
+  
+  /* This is the list links section */
+.link-lists li {
+    width: 550px;
+    list-style-type: none;
+    background-color: lightgray;
+  }
+.link-lists li:hover {
+    background-color: gray;
+    color: #f1f1f1;
+  }
+#category-name {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+#category-name span {
+    font-size: 18px;
+    text-transform: bold;
+    color: rgb(9, 113, 151);
+  }
+#main-title {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+#error-message {
+    color: red;
+    font-size: 17px;
+  }
+  

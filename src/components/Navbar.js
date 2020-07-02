@@ -18,11 +18,14 @@ class Navbar extends Component {
                 <div className="main-parent-container">
                     <div className="btn-group" id="inner-navbar-login-box">
                         <form>
-                            <input type="text" id="username" placeholder="Inserisci Email" />
-                            <input type="password" id="password" placeholder="Inserisci Email" />
+                            <input type="text" autoComplete="off" id="username" placeholder="Inserisci Email" />
+                            <input type="password" id="password" placeholder="Inserisci Password" />
                             <div className="check-box-container">
-                                <label htmlFor="userCheck" className="check-box-label">Auto</label>
-                                <input type="checkbox" className="check-box" id="userCheck" />
+                                <label htmlFor="userCheck" className="check-box-label">
+                                    Auto
+                                    <input type="checkbox" className="check-box" id="userCheck" />
+                                </label>
+                                
                             </div>
                             <button type="submit" id="navbar-login-btn" className="btn btn-sm btn-secondary p-1">ACCEDI</button>
                         </form>
